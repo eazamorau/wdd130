@@ -68,11 +68,17 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
+    bottom: 0px;
+    background-color: var(--accent1-color);
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 85px;
+}
+
+.socialmedia img {
+    width: 50px;
 }

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #382481;
+}
+
+fieldset {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #EEE;
+}
+
+input,
+select,
+textarea {
+    font-size: 1.25em;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+code {
+    background-color: #121212;
+    color: rgb(249, 245, 245);
+    padding: 10px 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #382481;
+}
+
+button {
+    font-size: 1.25em;
+    padding: 10px 20px;
+    background-color: #000080;
+    color: #EEE;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+}
